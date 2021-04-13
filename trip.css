@@ -1,0 +1,502 @@
+body * {
+    color: #ffd51c;;
+    background-color: rgb(206, 43, 43);   /* is this the red? */
+  width: 1073px;
+}
+
+@font-face {
+    font-family: "Blow";
+    src: url("/Users/cmixon/Documents/GitHub/triptych/blow.ttf");
+    
+    }     
+ h1 {
+    font-weight:  normal ;
+    font-family: Blow;
+    font-size: 78px; 
+    text-align: center;  
+ }
+strong {
+    background-color: rgb(169, 83, 255) ;
+}
+
+
+
+ div.sonoran-hot-dog {
+    background:transparent;
+    border-radius: 30px;
+    transform: rotate(90deg);
+    display: block;
+    height: 85px;
+    margin: 120px 30px 100px  20px; 
+    /* the last number is the one i want to change ^^^^ */
+    position: relative;
+    width: 300px;
+    
+  }
+  
+  .sonoran-hot-dog:before {
+    background-color: #C56028;
+    position: absolute;
+    background-image: radial-gradient(#da7f18 45%, transparent 16%), radial-gradient(#f7f6f8 35%, transparent 6%);
+    background-size: 35px 15px;
+    background-position: 10 10, 10px 5px;
+    border-radius: 40px;
+    box-shadow: 3px  4px 20px 5px rgb(75, 45, 18);
+    content: "";
+    height: 45%;
+    left: -20;
+    right: 0;
+    top: 40px;
+    width: 100%;
+  }
+  
+  .sonoran-hot-dog:after {
+    border-radius: 50%/100px 100px 0 0;
+    position: absolute;
+    
+  }
+  div.cilantro {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 170px;
+    top: 204px;
+    border-radius: 30px 10% 42px;
+    transform: skew(20deg);
+    background: rgb(29, 116, 7);
+  }
+  div.cilantro7 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 170px;
+    top: 244px;
+    border-radius: 30px 10% 42px;
+    transform: skew(-30deg);
+    transform: rotate(100deg);
+    background: rgb(29, 116, 7);
+  }
+
+  div.cilantro2{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 130px;
+    top: 294px;
+    transform: skew(-20deg);
+    border-radius: 30px 10% 42px;
+    background: rgb(29, 116, 7);
+  }
+  div.cilantro3{
+    position: absolute;
+    width: 30px;
+    height: 20px;
+    left: 160px;
+    border-radius: 30px 10%;
+    top: 364px;
+    transform: skew(20deg);
+    background: rgb(29, 116, 7);
+  }
+  div.cilantro4{
+    position: absolute;
+    width: 20px;
+    height: 30px;
+    left: 130px;
+    top: 234px;
+    transform: skew(20deg);
+    border-radius: 30px 10% 42px;
+    background: rgb(29, 116, 7);
+  }
+
+  div.cilantro5{
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    left: 120px;
+    top: 394px;
+    transform: skew(30deg);
+    border-radius: 30px 10% 42px;
+    transform: rotate(57deg);
+    background: rgb(29, 116, 7);
+  }
+
+  div.cilantro6{
+    position: absolute;
+    width: 10px;
+    height: 30px;
+    left: 144px;
+    border-radius: 30px 10%;
+    top: 154px;
+    transform: skew(30deg);
+    background: rgb(29, 116, 7);
+  }
+
+  div.tomato {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: rgb(206, 43, 43);
+  left: 134px;
+  top: 200px;
+  box-shadow: 30px 110px rgb(206, 43, 43),
+  10px 170px rgb(206, 43, 43), 
+  30px -32px rgb(206, 43, 43);
+  }
+
+  div.sourcream {
+    color:  #fff8dd;
+    background-color: transparent;
+      font-size: 40px;
+      font-weight: bolder;
+      position: absolute;
+      transform: rotate(188deg);
+      left: -833px;
+      top: 200px;
+      font-family: verdana;
+      letter-spacing: -6.5px;
+  }
+
+  div.sourcream2 {
+    color:  #fff8dd;
+    background-color: transparent;
+      font-size: 40px;
+      font-weight: bolder;
+      position: absolute;
+      transform: rotate(160deg);
+      left: -800px;
+      top: 360px;
+      font-family: verdana;
+      letter-spacing: -6.5px;
+  }
+
+  div.sourcream3 {
+    color:  #fff8dd;
+    background-color: transparent;
+      font-size: 40px;
+      font-weight: bolder;
+      position: absolute;
+      transform: rotate(145deg);
+      left: -735px;
+      top: 600px;
+      font-family: verdana;
+      letter-spacing: -6.5px;
+  }
+  
+  div.element1 {
+    position: absolute;
+    background: linear-gradient(to bottom, rgba(228,171,97,1) 0%, rgba(179,111,29,1) 100%);
+    border-radius: 30px;
+    width: 20%;
+    transform: rotate(120deg);
+    height: 200px;
+    top: 160px;
+    border-radius: 90% 23% 69% 31%;
+    border: 2px  solid #884006;
+    border-style:dotted;
+    box-shadow: 3px 4px 5px #502f04;
+    padding: 20px 0 20px 10px;
+    bottom: 330px;
+          
+  } 
+  div.seattle-hot-dog {
+    background: linear-gradient(to bottom, rgba(228,171,97,1) 0%, rgba(179,111,29,1) 100%);
+    border-radius: 30px;
+    transform: rotate(90deg);
+    display: block;
+    height: 85px;
+    margin: -180px 30px 100px  390px; 
+    /* the last number is the one i want to change ^^^^ */
+    position: relative;
+    width: 300px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
+  
+  .seattle-hot-dog:before {
+    background-color: #C56028;
+    position: absolute;
+    background-image: radial-gradient(#f7f6f8 15%, transparent 16%), radial-gradient(#f7f6f8 15%, transparent 16%);
+    background-size: 15px 15px;
+    background-position: 0 0, 5px 5px;
+    border-radius: 40px;
+    content: "";
+    height: 45%;
+    left: 0;
+    right: 0;
+    top: 20px;
+    width: 100%;
+    box-shadow: -3px  20px 0px -9px rgb(245, 252, 244),
+    -3px  -20px 4px -19px rgb(248, 255, 247);
+  }
+  
+  .seattle-hot-dog:after {
+    border-radius: 50%/100px 100px 0 0;
+    position: absolute;
+    color: transparent;
+    content: "--------";
+    font-size: 120px;
+    height: 10px;
+    left: 20px;
+    text-decoration: underline; 
+    text-decoration-color: rgb(206, 43, 43);
+    text-decoration-style: wavy;
+    top: -90px;
+    width: 100%;
+   
+  }
+
+  .creamcheese {
+    border-radius: 50%/100px 100px 0 0;
+    position: absolute;
+    color: transparent;
+    content: "OOOOO";
+    font-size: 120px;
+    height: 10px;
+    left: 320px;
+    text-decoration: underline; 
+    text-decoration-color: rgb(161, 0, 0);
+    text-decoration-style: wavy;
+    top: -90px;
+    width: 100%;
+  }
+
+  div.jalapeno {
+      position: absolute;
+      font-size: 6em;
+      width: 0.2em;
+      background-color: transparent;
+      box-sizing: content-box;
+      height: 0.2em;
+      border: 0.1em solid rgb(29, 116, 7);
+      left: 510px;
+      top: 300px;
+      border-radius: 0.35em;
+      border-radius: 50%;
+      
+    }
+
+    div.jalapeno2 {
+      position: absolute;
+      font-size: 6em;
+      width: 0.2em;
+      background-color: transparent;
+      box-sizing: content-box;
+      height: 0.2em;
+      border: 0.1em solid rgb(29, 116, 7);
+      left: 545px;
+      top: 200px;
+      border-radius: 0.35em;
+      border-radius: 50%;
+    
+    }
+
+    div.jalapeno3 {
+      position: absolute;
+      font-size: 6em;
+      width: 0.2em;
+      background-color: transparent;
+      box-sizing: content-box;
+      height: 0.2em;
+      border: 0.1em solid rgb(29, 116, 7);
+      left: 545px;
+      top: 350px;
+      border-radius: 0.35em;
+      border-radius: 50%;
+    }
+
+
+  div.omaha-hot-dog {
+    background: linear-gradient(to bottom, rgba(228,171,97,1) 0%, rgba(179,111,29,1) 100%);
+    border-radius: 30px;
+    transform: rotate(90deg);
+    display: block;
+    height: 85px;
+    left: 763px;
+    top: -215px;
+    /* margin: -180px 30px 100px  760px;  */
+    /* the last number is the one i want to change ^^^^ */
+    position: relative;
+    width: 300px;
+    height: 145px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
+  
+  .omaha-hot-dog:before {
+    background-color: #c52828;
+    position: absolute;
+    /* background-image: radial-gradient(#f7f6f8 15%, transparent 16%), radial-gradient(#f7f6f8 15%, transparent 16%);
+    background-size: 15px 15px ;
+    border-radius: 21% 79% 41% 59% / 100% 0% 100% 0% ;
+    background-position: 0 0, 5px 5px; */
+    border-radius: 40px 30px 40px 45px;
+    box-shadow: -3px  20px 4px -9px rgb(29, 116, 7),
+    -3px  -20px 4px -9px rgb(29, 116, 7);
+     content: ""; 
+    height: 80px;
+    left: -10px;
+    top: 30px;
+    width: 325px;
+  }
+  
+  .omaha-hot-dog:after {
+    border-radius: 50%/100px 100px 0 0;
+    position: absolute;
+    color: transparent;
+    content: "--------";
+    font-size: 140px;
+    height: 190px;
+    left: -5px;
+    text-decoration: underline; 
+    text-decoration-color: #FFDB58;
+    text-decoration-style: wavy;
+    top: -80px;
+    width: 120%;
+  }
+
+  div.button {
+    color: rgb(206, 43, 43);
+    position: absolute;
+    font-family: Blow;
+    font-size: 46px; 
+    text-shadow: 5px 3px whitesmoke;
+    background-color: #0077ff;
+    font-weight:normal;
+    padding: 20px 0;
+    bottom: 100px;
+    text-align: center;
+    width: 300px;
+    border: 4px solid #ffd51c;
+    border-radius: 5px;
+  }
+  div.button2 {
+    color: rgb(206, 43, 43);
+    position: absolute;
+    font-family: Blow;
+    font-size: 46px; 
+    left: 390px;
+    text-shadow: 5px 3px whitesmoke;
+    background-color: #0077ff;
+    font-weight: normal;
+    padding: 20px 0;
+    bottom: 100px;
+    text-align: center;
+    width: 300px;
+    height: 92px;
+    border: 4px solid #ffd51c;
+    border-radius: 5px;
+  }  
+  div.button3{
+    color: rgb(206, 43, 43);
+    position: absolute;
+    font-family: Blow;
+    font-size: 46px; 
+    left: 770px;
+    text-shadow: 5px 3px whitesmoke;
+    background-color: #0077ff;
+    font-weight: normal;
+    padding: 20px 0;
+    bottom: 100px;
+    text-align: center;
+    width: 300px;
+    height: 92px;
+    border: 4px solid #ffd51c;
+    border-radius: 5px;
+  }  
+
+div.picklefloat {
+  
+  position: absolute ;
+  width: 100px;
+  height: 100px;
+  left: 40px;
+  background-color: transparent;
+  content: url("/Users/cmixon/Documents/GitHub/triptych/pickle.png");
+  animation: animate 15s linear infinite;
+}
+div.picklefloat2 {
+  
+  position: absolute ;
+  width: 100px;
+  height: 100px;
+  left: 300px;
+  background-color: transparent;
+  content: url("/Users/cmixon/Documents/GitHub/triptych/pickle.png");
+  animation: animate 25s linear infinite;
+}
+
+div.picklefloat3 {
+  
+  position: absolute ;
+  width: 100px;
+  height: 100px;
+  left: 540px;
+  background-color: transparent;
+  content: url("/Users/cmixon/Documents/GitHub/triptych/pickle.png");
+  animation: animate 5s ease-in infinite;
+}
+
+div.picklefloat4 {
+  
+  position: absolute ;
+  width: 100px;
+  height: 100px;
+  left: 740px;
+  background-color: transparent;
+  content: url("/Users/cmixon/Documents/GitHub/triptych/pickle.png");
+  animation: animate 15s ease-in-out infinite;
+}
+
+div.picklefloat5 {
+  
+  position: absolute ;
+  width: 100px;
+  height: 100px;
+  left: 990px;
+  background-color: transparent;
+  content: url("/Users/cmixon/Documents/GitHub/triptych/pickle.png");
+  animation: animate 15s linear infinite;
+}
+
+
+@keyframes animate {
+    0% 
+    { top: -10%;}
+    100%
+    {
+      top: 110%;
+    }
+}
+
+div.disco {
+position: absolute;
+width: 30%;
+background-color: transparent;
+bottom: -200px;
+}
+
+div#lH {
+  position: absolute;
+  font-family: Blow;
+  width: 200px;
+  height: 30px;
+  top: 640px;
+  left: 200px;
+  overflow: hidden;
+  z-index: 1;
+  font-size: 25px;
+  text-align:center;
+}
+audio#aH {
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  z-index: 2;
+  opacity: 0.01;
+}
+  /* p {
+    border: 1px solid #5D6063;
+    width: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+  } */
